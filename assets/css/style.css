@@ -1,0 +1,55 @@
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    margin: 100px 50px;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+.kid{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(77, 77, 17);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.parent{
+    height: auto;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: right;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.child{
+    height: 200px;
+    flex-basis: 25%;
+    background-color: rgb(72, 88, 89);
+    border: solid black 2px;
+}
+.childa{
+    height: 200px;
+    flex-basis: 70%;
+    background-color: rgb(72, 88, 89);
+
+}
+.row{
+    height: auto;
+    width: 100%;
+    background-color: rgb(27, 58, 60);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+.col{
+    height: 200px;
+    
+    background-color: rgb(72, 88, 89);
+    
+}
